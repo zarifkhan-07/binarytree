@@ -6,13 +6,13 @@ class Node:
         self.left=None
         self.val=key
     
-    def print_inorder(root):
-        if root:
-            print_inorder(root.left)
+def print_inorder(root):
+    if root:
+        print_inorder(root.left)
 
-            print(root.val, end="")
+        print(root.val, end="")
 
-            print_inorder(root.right)
+        print_inorder(root.right)
     
 
 if __name__ == '__main__':
