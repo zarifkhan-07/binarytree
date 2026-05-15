@@ -1,4 +1,4 @@
-from binary import build
+from binarytree import build
 
 class Node:
     def __init__(self,key):
